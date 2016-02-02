@@ -1,4 +1,4 @@
-angular.module('humet.home', ['lbServices'])
+angular.module('looper.home', ['lbServices'])
 .controller('HomeTabCtrl', function ($scope, $location, User, Tweet, Like, Avatar) {
     $scope.currentUser = User.getCurrent();
     $scope.newTweet = {};

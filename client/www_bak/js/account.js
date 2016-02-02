@@ -1,4 +1,4 @@
-angular.module('humet.account', ['lbServices', 'ionic'])
+angular.module('looper.account', ['lbServices', 'ionic'])
     .controller('AccountCtrl', function ($scope, $location, User, Tweet) {
         $scope.currentUser = User.getCurrent();
         Tweet.count({ownerId: $scope.currentUser.id})

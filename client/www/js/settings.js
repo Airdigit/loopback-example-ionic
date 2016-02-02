@@ -1,5 +1,5 @@
-angular.module('humet.account', ['lbServices', 'ionic'])
-    .controller('AccountCtrl', function ($scope, $location, User, Tweet) {
+angular.module('humet.settings', ['lbServices', 'ionic'])
+    .controller('settingsCtrl', function ($scope, $location, User, Tweet) {
         $scope.currentUser = User.getCurrent();
         Tweet.count({ownerId: $scope.currentUser.id})
             .$promise

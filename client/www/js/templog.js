@@ -1,5 +1,5 @@
-angular.module('humet.dev', ['lbServices', 'ionic'])
-    .controller('DevCtrl', function ($scope, User, Avatar) {
+angular.module('humet.templog', ['lbServices', 'ionic'])
+    .controller('TemplogCtrl', function ($scope, User, Avatar) {
         /**
          * Blank page for testing purposes
          */
